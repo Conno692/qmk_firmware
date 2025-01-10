@@ -5,8 +5,10 @@
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [J. Schick](https://github.com/J. Schick)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: Designed for Waveshare RP2040-Zero Microcrontroller
+* Hardware Availability: 
+
+
 
 Make example for this keyboard (after setting up your build environment):
 

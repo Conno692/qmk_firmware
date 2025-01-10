@@ -41,6 +41,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ) 
 };
 
+#ifdef OLED_ENABLE
+
+// Rotate OLED
+/*oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_90;
+}*/
+
+// Draw to OLED
+bool oled_task_user() {
+    // Set cursor porition
+    oled_set_cursor(0, 1);
+
+    //Write text to OLED
+    oled_write("Hello, World!", false);
+    return false;
+}
+
+#endif
+
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = {ENCODER_CCW_CW(KC_UP, KC_DOWN) },
