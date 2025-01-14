@@ -1,7 +1,7 @@
 {
-    "manufacturer": "J. Schick",
+    "manufacturer": "Conno692",
     "keyboard_name": "AR_Zehn",
-    "maintainer": "J. Schick",
+    "maintainer": "Conno692",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
